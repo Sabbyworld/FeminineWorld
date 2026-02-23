@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support My Cause</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #fff0f5; /* light lavender/pink tone */
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            max-width: 600px;
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            color: #c71585; /* mature pink/magenta */
+            margin-bottom: 20px;
+            font-size: 2.2rem;
+        }
+
+        p {
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        a.button {
+            display: inline-block;
+            text-decoration: none;
+            background: #c71585;
+            color: #fff;
+            padding: 12px 25px;
+            border-radius: 50px;
+            font-weight: 500;
+            transition: background 0.3s ease;
+            margin: 10px;
+        }
+
+        a.button:hover {
+            background: #d63384;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        /* Responsive */
+        @media (max-width: 500px) {
+            .container {
+                padding: 30px 20px;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Join Our Cause</h1>
+        <p>Help make a difference by supporting our initiative. Download the information file or visit our Change.org petition to get involved.</p>
+        <!-- File Download Button -->
+        <a class="button" href="yourfile.pdf" download>Download Info File</a>
+        <!-- Change.org Link Button -->
+        <a class="button" href="https://c.org/QKtYkpdnT6" target="_blank">Sign the Petition</a>
+        <footer>&copy; 2026 Your Organization. All rights reserved.</footer>
+    </div>
+</body>
+</html>
